@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "./ui/button";
-import { useCartStore } from "@/store/cart-store";
+import { useCartStore } from "../store/cart-store";
 
 export const ProductDetail = ({ product }) => {
   const { items, addItem, removeItem } = useCartStore();

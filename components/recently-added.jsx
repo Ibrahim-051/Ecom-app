@@ -1,4 +1,4 @@
-import { stripe } from "@/lib/stripe";
+import { stripe } from "../lib/stripe";
 import React from "react";
 import { ProductCard } from "./product-card";
 

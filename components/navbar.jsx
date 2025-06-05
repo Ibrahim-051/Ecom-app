@@ -6,7 +6,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import { useCartStore } from "@/store/cart-store";
+import { useCartStore } from "../store/cart-store";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
